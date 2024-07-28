@@ -3,8 +3,10 @@ import React from "react";
 
 const MainSidebar = React.memo((props: any) => {
     return (
-        <MDBCol className = "main-sidebar bg-info">
+        <MDBCol md={3} className = "main-sidebar bg-info">
             
         </MDBCol>
     )
 })
+
+export default MainSidebar;

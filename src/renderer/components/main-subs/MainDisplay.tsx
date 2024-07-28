@@ -3,7 +3,7 @@ import React from "react";
 
 const MainDisplay = React.memo((props: any) => {
     return (
-        <MDBCol className = "main-display bg-info">
+        <MDBCol md={9} className = "main-display bg-warning">
             
         </MDBCol>
     )
