@@ -3,8 +3,11 @@ import React from 'react';
 
 const MainComponent = React.memo((props: any) => {
     return (
-        <MDBContainer fluid>
-
+        <MDBContainer fluid className="main-component bg-success">
+            <MDBRow>
+                <MainSidebar />
+                <MainDisplay />
+            </MDBRow>
         </MDBContainer>
     )
 
