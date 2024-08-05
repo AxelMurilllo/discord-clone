@@ -12,7 +12,15 @@ const App = React.memo(() => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<MainComponent />} />
+          <Route path="/" 
+          element={<MainComponent />} 
+          children = {[
+            <Route 
+            path="server/:serverId"
+             element={<MainComponent />}
+             />
+            ]}
+          />
         </Routes>
       </Router>
     </Provider>
