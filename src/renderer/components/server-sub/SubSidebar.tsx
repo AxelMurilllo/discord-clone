@@ -3,7 +3,7 @@ import React from "react";
 
 const SubSidebar = React.memo((props: any) => {
     return (
-        <MDBCol md={3} className="sub-sidebar">
+        <MDBCol md={3} className="sub-sidebar bg-danger">
             hello
         </MDBCol>
     )
