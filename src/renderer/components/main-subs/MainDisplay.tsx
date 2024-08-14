@@ -9,7 +9,7 @@ const MainDisplay = React.memo((props: any) => {
             <MDBContainer fluid className="p-0 h-100">
                 <MDBRow className="m-0 p-0 h-100">
                     <SubSidebar />
-                    <SubDisplay />
+                    {/* <SubDisplay /> */}
                 </MDBRow>
             </MDBContainer>
         </MDBCol>
